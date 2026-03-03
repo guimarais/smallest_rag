@@ -1,0 +1,15 @@
+llm:
+  model: "llama3.2"
+
+embedding:
+  model: "nomic-embed-text"
+
+retrieval:
+  top_k: 5
+  chunk_size: 500
+  chunk_overlap: 50
+  search_mode: "hybrid"   # hybrid | cosine | bm25
+
+hybrid:
+  bm25_weight: 0.5
+  cosine_weight: 0.5

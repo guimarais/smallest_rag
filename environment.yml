@@ -1,0 +1,14 @@
+name: smallest_rag
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - streamlit
+  - chromadb
+  - pypdf
+  - python-docx
+  - pyyaml
+  - pip:
+    - ollama>=0.2.0
+    - rank-bm25>=0.2.2
